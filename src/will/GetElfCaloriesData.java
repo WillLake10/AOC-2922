@@ -15,7 +15,7 @@ public class GetElfCaloriesData {
         int value = 0;
         List<Elf> values = new ArrayList<>();
         try {
-            Scanner scanner = new Scanner(new File("src/will/data/calorieData.txt"));
+            Scanner scanner = new Scanner(new File("src/will/data/dataDay1.txt"));
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();

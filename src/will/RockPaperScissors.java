@@ -11,7 +11,7 @@ public class RockPaperScissors {
     public static List<Game> getAllPairs() {
         List<Game> games = new ArrayList<>();
         try {
-            Scanner scanner = new Scanner(new File("src/will/data/rpsData.txt"));
+            Scanner scanner = new Scanner(new File("src/will/data/dataDay2.txt"));
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
