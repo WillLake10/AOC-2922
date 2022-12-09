@@ -27,24 +27,24 @@ public class RockPaperScissors {
     public static int getFinalScore(){
         int score = 0;
         for (Game game : games) {
-            switch (game.getY()) {
+            switch (game.y()) {
                 case 'X' -> {
                     score += 1;
-                    switch (game.getX()) {
+                    switch (game.x()) {
                         case 'A' -> score += 3;
                         case 'C' -> score += 6;
                     }
                 }
                 case 'Y' -> {
                     score += 2;
-                    switch (game.getX()) {
+                    switch (game.x()) {
                         case 'B' -> score += 3;
                         case 'A' -> score += 6;
                     }
                 }
                 case 'Z' -> {
                     score += 3;
-                    switch (game.getX()) {
+                    switch (game.x()) {
                         case 'C' -> score += 3;
                         case 'B' -> score += 6;
                     }
@@ -57,9 +57,9 @@ public class RockPaperScissors {
     public static int getFinalScorePart2(){
         int score = 0;
         for (Game game : games) {
-            switch (game.getY()) {
+            switch (game.y()) {
                 case 'X' -> {
-                    switch (game.getX()) {
+                    switch (game.x()) {
                         case 'A' -> score += 3;
                         case 'B' -> score += 1;
                         case 'C' -> score += 2;
@@ -67,7 +67,7 @@ public class RockPaperScissors {
                 }
                 case 'Y' -> {
                     score += 3;
-                    switch (game.getX()) {
+                    switch (game.x()) {
                         case 'A' -> score += 1;
                         case 'B' -> score += 2;
                         case 'C' -> score += 3;
@@ -75,7 +75,7 @@ public class RockPaperScissors {
                 }
                 case 'Z' -> {
                     score += 6;
-                    switch (game.getX()) {
+                    switch (game.x()) {
                         case 'A' -> score += 2;
                         case 'B' -> score += 3;
                         case 'C' -> score += 1;
@@ -86,30 +86,15 @@ public class RockPaperScissors {
         return score;
     }
 
-    public static class Game {
-        private final char x;
-        private final char y;
-
-        public Game(char x, char y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        public char getX() {
-            return x;
-        }
-
-        public char getY() {
-            return y;
-        }
+    public record Game(char x, char y) {
 
         @Override
-        public String toString() {
-            return "Game{" +
-                    "x=" + x +
-                    ", y=" + y +
-                    '}';
+            public String toString() {
+                return "Game{" +
+                        "x=" + x +
+                        ", y=" + y +
+                        '}';
+            }
         }
-    }
 
 }
