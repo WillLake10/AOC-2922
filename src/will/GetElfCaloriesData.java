@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class ElfCalories {
+public class GetElfCaloriesData {
 
     public static List<Elf> getAllElves() {
         int i = 0;
