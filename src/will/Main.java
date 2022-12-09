@@ -4,15 +4,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static will.GetElfCaloriesData.getHigestCalorieElf;
+import static will.Days.outputDay;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("What day do you want the answer for: Day ");
-        int day = Integer.parseInt(reader.readLine());
-        if (day == 1) {
-            System.out.println("Day 1 answer is: " + getHigestCalorieElf().getNumCalories());
+        int day;
+        do {
+            System.out.print("What day do you want the answer for: Day ");
+            day = Integer.parseInt(reader.readLine());
+            outputDay(day);
         }
+        while (day >= 1);
     }
 }
