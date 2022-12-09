@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 1 part 2">
-      <change afterPath="$PROJECT_DIR$/src/will/Days.java" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 2">
+      <change afterPath="$PROJECT_DIR$/src/will/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/will/data/rpsData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Days.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/GetElfCaloriesData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/GetElfCaloriesData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/data/calorieData.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/will/data" />
       <recent name="$PROJECT_DIR$/src/will" />
     </key>
   </component>
@@ -75,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670541872041</updated>
       <workItem from="1670541873089" duration="4792000" />
-      <workItem from="1670584214756" duration="1702000" />
+      <workItem from="1670584214756" duration="11819000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -98,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670546456900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day 1 part 2">
+      <created>1670585936703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670585936703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +132,7 @@
     <MESSAGE value="Day 1" />
     <MESSAGE value="Improve Day 1" />
     <MESSAGE value="Day 1 part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 part 2" />
+    <MESSAGE value="Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
   </component>
 </project>

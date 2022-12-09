@@ -15,7 +15,7 @@ public class GetElfCaloriesData {
         int value = 0;
         List<Elf> values = new ArrayList<>();
         try {
-            Scanner scanner = new Scanner(new File("src/will/data.txt"));
+            Scanner scanner = new Scanner(new File("src/will/data/calorieData.txt"));
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -27,7 +27,6 @@ public class GetElfCaloriesData {
                     value += Integer.parseInt(line);
                 }
             }
-            System.out.println("File Read");
             scanner.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -3,6 +3,7 @@ package will;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Objects;
 
 import static will.Days.outputDay;
 
@@ -10,11 +11,24 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int day;
+        String input;
+        boolean breakLoop = false;
         do {
             System.out.print("What day do you want the answer for: Day ");
-            day = Integer.parseInt(reader.readLine());
-            outputDay(day);
+            input = reader.readLine();
+            try {
+                day = Integer.parseInt(input);
+                outputDay(day);
+            } catch (Exception e) {
+                if (Objects.equals(input, "n")) {
+                    for (int i = 1; i <= 25; i++) {
+                        outputDay(i);
+                    }
+                } else {
+                    breakLoop = true;
+                }
+            }
         }
-        while (day >= 1);
+        while (!breakLoop);
     }
 }
