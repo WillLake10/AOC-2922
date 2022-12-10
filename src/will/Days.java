@@ -6,6 +6,7 @@ import static will.SolutionDay1.*;
 import static will.SolutionDay2.*;
 import static will.SolutionDay3.*;
 import static will.SolutionDay4.*;
+import static will.SolutionDay5.*;
 
 public class Days {
 
@@ -55,7 +56,7 @@ public class Days {
                 {String.valueOf(getFinalScore()), String.valueOf(getFinalScorePart2())}, //2
                 {String.valueOf(getSectionsPriorityScore()), String.valueOf(getElfIdPriority())}, //3
                 {String.valueOf(getNumbPairsContained(false)), String.valueOf(getNumbPairsOverlap(false))}, //4
-                {"null", "null"}, //5
+                {getFinalTopCrates(false),getFinalTopCrates9001(false)}, //5
                 {"null", "null"}, //6
                 {"null", "null"}, //7
                 {"null", "null"}, //8
