@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Refactor">
-      <change afterPath="$PROJECT_DIR$/src/will/SolutionDay4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/data/dataDay4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/data/temp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Days.java" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Remove temp.txt">
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670541872041</updated>
       <workItem from="1670541873089" duration="4792000" />
-      <workItem from="1670584214756" duration="30292000" />
+      <workItem from="1670584214756" duration="30603000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -149,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670633243382</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day4">
+      <created>1670636745006</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670636745006</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Remove temp.txt">
+      <created>1670636794549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670636794549</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +186,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Add tests" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Day4" />
+    <MESSAGE value="Remove temp.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove temp.txt" />
   </component>
 </project>

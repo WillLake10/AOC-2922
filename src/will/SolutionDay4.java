@@ -47,8 +47,7 @@ public class SolutionDay4 {
                     System.out.println("T:" + job.start1() + "-" + job.end1() + ", " + "" + job.start2() + "-" + job.end2());
                 count += 1;
                 containd = true;
-            }
-            if (job.start2() <= job.start1() && job.end2() >= job.end1() && !containd) {
+            }else if (job.start2() <= job.start1() && job.end2() >= job.end1()) {
                 if (debug)
                     System.out.println("B:" + job.start1() + "-" + job.end1() + ", " + "" + job.start2() + "-" + job.end2());
                 count += 1;
