@@ -8,13 +8,35 @@ import static will.GetElfCaloriesData.getHigestCalorieElf;
 public class Days {
 
     static String[][] answers = settupAnswersArray();
+    private static final String ANSI_RESET = "\u001B[0m";
+    private static final String ANSI_RED = "\u001B[31m";
+    private static final String ANSI_GREEN = "\u001B[32m";
+    private static final String ANSI_BLUE = "\u001B[34m";
+    private static final String ANSI_PURPLE = "\u001B[35m";
 
-    public static void outputDay(int day) {
-        for (int i =0 ; i < 2; i++){
-            if (!Objects.equals(answers[day - 1][i], "null")){
-                printAnswer(day, i+1, answers[day-1][i]);
-                if (i == 1){
-                    System.out.println();
+    public static void outputDay(int day, boolean test) {
+        if (!test) {
+            for (int i = 0; i < 2; i++) {
+                if (!Objects.equals(answers[day - 1][i], "null")) {
+                    printAnswer(day, i + 1, answers[day - 1][i]);
+                    if (i == 1) {
+                        System.out.println();
+                    }
+                }
+            }
+        } else {
+            for (int i = 0; i < 2; i++) {
+                if (!Objects.equals(answers[day - 1][i], "null")) {
+                    if (Test.valuesPassesTest(day - 1, i, answers[day - 1][i])) {
+                        System.out.println("Day: " + ANSI_BLUE + day + ANSI_RESET + ", Part " + ANSI_BLUE + (i + 1) + ANSI_RESET + ": " + ANSI_GREEN + "Test Passed" + ANSI_RESET);
+                    } else {
+                        System.out.println("Day: " + ANSI_BLUE + day + ANSI_RESET + ", Part " + ANSI_BLUE + (i + 1) + ANSI_RESET + ": " + ANSI_RED + "Test Failed" + ANSI_RESET);
+                        System.out.println("    Value Got:      " + answers[day - 1][i]);
+                        System.out.println("    Value Expected: " + Test.expectedValues[day - 1][i]);
+                    }
+                    if (i == 1) {
+                        System.out.println();
+                    }
                 }
             }
         }
@@ -56,6 +78,6 @@ public class Days {
     }
 
     private static void printAnswer(int day, int part, String value) {
-        System.out.println("Day " + day + " part " + part + " answer is: " + value);
+        System.out.println("Day " + ANSI_BLUE + day + ANSI_RESET + ", Part " + ANSI_BLUE + part + ANSI_RESET + " answer is: " + ANSI_PURPLE + value + ANSI_RESET);
     }
 }

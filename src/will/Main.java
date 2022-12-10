@@ -18,13 +18,18 @@ public class Main {
             input = reader.readLine();
             try {
                 day = Integer.parseInt(input);
-                outputDay(day);
+                outputDay(day, false);
             } catch (Exception e) {
                 if (Objects.equals(input, "n")) {
                     for (int i = 1; i <= 25; i++) {
-                        outputDay(i);
+                        outputDay(i, false);
                     }
-                } else {
+                } else if (Objects.equals(input, "t")){
+                    for (int i = 1; i <= 25; i++) {
+                        outputDay(i, true);
+                    }
+                }
+                else {
                     breakLoop = true;
                 }
             }
