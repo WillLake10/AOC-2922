@@ -2,8 +2,10 @@ package will;
 
 import java.util.Objects;
 
-import static will.SolutionDay1.getCaloriesForNthMostCarriedElf;
-import static will.SolutionDay1.getHigestCalorieElf;
+import static will.SolutionDay1.*;
+import static will.SolutionDay2.*;
+import static will.SolutionDay3.*;
+import static will.SolutionDay4.*;
 
 public class Days {
 
@@ -50,9 +52,9 @@ public class Days {
 
         return new String[][]{
                 {String.valueOf(getHigestCalorieElf()), String.valueOf(total1part2)}, //1
-                {String.valueOf(SolutionDay2.getFinalScore()), String.valueOf(SolutionDay2.getFinalScorePart2())}, //2
-                {String.valueOf(SolutionDay3.getSectionsPriorityScore()), String.valueOf(SolutionDay3.getElfIdPriority())}, //3
-                {"null", "null"}, //4
+                {String.valueOf(getFinalScore()), String.valueOf(getFinalScorePart2())}, //2
+                {String.valueOf(getSectionsPriorityScore()), String.valueOf(getElfIdPriority())}, //3
+                {String.valueOf(getNumbPairsContained(false)), String.valueOf(getNumbPairsOverlap(false))}, //4
                 {"null", "null"}, //5
                 {"null", "null"}, //6
                 {"null", "null"}, //7
