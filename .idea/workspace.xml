@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Fix redundant code in day 4">
-      <change afterPath="$PROJECT_DIR$/src/will/SolutionDay5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/data/dataDay5.txt" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 5">
+      <change afterPath="$PROJECT_DIR$/src/will/SolutionDay6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/will/data/dataDay6.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Days.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Test.java" afterDir="false" />
@@ -82,7 +82,7 @@
       <updated>1670541872041</updated>
       <workItem from="1670541873089" duration="4792000" />
       <workItem from="1670584214756" duration="30658000" />
-      <workItem from="1670674931779" duration="13875000" />
+      <workItem from="1670674931779" duration="16343000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670636866554</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day 5">
+      <created>1670690103586</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670690103586</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,7 @@
     <MESSAGE value="Day4" />
     <MESSAGE value="Remove temp.txt" />
     <MESSAGE value="Fix redundant code in day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix redundant code in day 4" />
+    <MESSAGE value="Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
   </component>
 </project>
