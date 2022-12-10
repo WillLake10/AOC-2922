@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Rucksack {
+public class SolutionDay3 {
     static List<Bag> bags = getAllPairs();
 
     public static List<Bag> getAllPairs() {

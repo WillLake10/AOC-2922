@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class RockPaperScissors {
+public class SolutionDay2 {
     static List<Game> games = getAllPairs();
     public static List<Game> getAllPairs() {
         List<Game> games = new ArrayList<>();

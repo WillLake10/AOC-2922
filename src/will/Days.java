@@ -2,8 +2,8 @@ package will;
 
 import java.util.Objects;
 
-import static will.GetElfCaloriesData.getCaloriesForNthMostCarriedElf;
-import static will.GetElfCaloriesData.getHigestCalorieElf;
+import static will.SolutionDay1.getCaloriesForNthMostCarriedElf;
+import static will.SolutionDay1.getHigestCalorieElf;
 
 public class Days {
 
@@ -49,9 +49,9 @@ public class Days {
         }
 
         return new String[][]{
-                {String.valueOf(getHigestCalorieElf().getNumCalories()), String.valueOf(total1part2)}, //1
-                {String.valueOf(RockPaperScissors.getFinalScore()), String.valueOf(RockPaperScissors.getFinalScorePart2())}, //2
-                {String.valueOf(Rucksack.getSectionsPriorityScore()), String.valueOf(Rucksack.getElfIdPriority())}, //3
+                {String.valueOf(getHigestCalorieElf()), String.valueOf(total1part2)}, //1
+                {String.valueOf(SolutionDay2.getFinalScore()), String.valueOf(SolutionDay2.getFinalScorePart2())}, //2
+                {String.valueOf(SolutionDay3.getSectionsPriorityScore()), String.valueOf(SolutionDay3.getElfIdPriority())}, //3
                 {"null", "null"}, //4
                 {"null", "null"}, //5
                 {"null", "null"}, //6

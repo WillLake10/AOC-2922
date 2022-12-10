@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/src/will/Test.java" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Add tests">
       <change afterPath="$PROJECT_DIR$/src/will/data/dataDay4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Days.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/Elf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/GetElfCaloriesData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/Rucksack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670541872041</updated>
       <workItem from="1670541873089" duration="4792000" />
-      <workItem from="1670584214756" duration="25350000" />
+      <workItem from="1670584214756" duration="26390000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -135,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670629768316</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add tests">
+      <created>1670631829411</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670631829411</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +169,7 @@
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 3" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
   </component>
 </project>

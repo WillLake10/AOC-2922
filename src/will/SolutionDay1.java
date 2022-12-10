@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class GetElfCaloriesData {
+public class SolutionDay1 {
     static List<Elf> values = getAllElves();
 
     public static List<Elf> getAllElves() {
@@ -34,30 +34,33 @@ public class GetElfCaloriesData {
         return values;
     }
 
-    public static Elf getHigestCalorieElf() {
+    public static int getHigestCalorieElf() {
         Elf highest = values.get(0);
         int highest_pos = 0;
         for (int x = 0; x < values.size(); x++) {
-            if (values.get(x).getNumCalories() > highest.getNumCalories()) {
+            if (values.get(x).numCalories() > highest.numCalories()) {
                 highest = values.get(x);
                 highest_pos = x;
             }
         }
-        return values.get(highest_pos);
+        return values.get(highest_pos).numCalories;
     }
 
     private static List<Elf> sortElvesByCalories() {
         List<Elf> sortedValues = values;
         sortedValues.sort((o1, o2) -> {
-            if (o1.getNumCalories() == o2.getNumCalories())
+            if (o1.numCalories() == o2.numCalories())
                 return 0;
-            return o1.getNumCalories() > o2.getNumCalories() ? -1 : 1;
+            return o1.numCalories() > o2.numCalories() ? -1 : 1;
         });
         return sortedValues;
     }
 
     public static int getCaloriesForNthMostCarriedElf(int n) {
         List<Elf> sorted = sortElvesByCalories();
-        return sorted.get(n).getNumCalories();
+        return sorted.get(n).numCalories();
+    }
+
+    private record Elf(int elfNum, int numCalories) {
     }
 }
