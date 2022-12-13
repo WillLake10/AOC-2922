@@ -36,7 +36,7 @@ public class SolutionDay7 {
 
     static Stack<String> currentDir = new Stack<>();
 
-    public static int getPart1Score(boolean debug) {
+    public static int getTotalSizeUnder100000(boolean debug) {
         cleanData();
         if (debug) {
             for (String d : data) {
@@ -59,7 +59,7 @@ public class SolutionDay7 {
         return answer.intValue();
     }
 
-    public static int getPart2Score(boolean debug) {
+    public static int getFileSizeToDelete(boolean debug) {
         int currentLarge = 70000000;
         for (String key : dirSizes.keySet()) {
             if (dirSizes.get(key) >= 30000000 - (70000000 - 43956976)) {
