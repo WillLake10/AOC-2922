@@ -3,7 +3,6 @@ package will;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class SolutionDay8 {
@@ -75,7 +74,7 @@ public class SolutionDay8 {
     }
 
     public static int getHighAppeal(boolean debug) {
-        ArrayList<ArrayList<Integer>> scienecScoreMatrix = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> scenicScoreMatrix = new ArrayList<>();
         for (int i = 0; i < table.size(); i++) {
             ArrayList<Integer> temp = new ArrayList<>();
             for (int j = 0; j < table.get(0).size(); j++) {
@@ -85,72 +84,33 @@ public class SolutionDay8 {
                 int visibleT = 0;
                 int visibleB = 0;
                 for (int x = i - 1; x >= 0; x--) {
-                    if (table.get(i).get(j) > table.get(x).get(j)) {
-                        visibleL++;
-                    } else if (Objects.equals(table.get(i).get(j), table.get(x).get(j))) {
-                        visibleL++;
-                        break;
-                    } else {
-                        visibleB++;
-                        break;
-                    }
+                    visibleL++;
+                    if (table.get(i).get(j) <= table.get(x).get(j)) break;
                 }
                 for (int x = i + 1; x < table.size(); x++) {
-                    if (table.get(i).get(j) > table.get(x).get(j)) {
-                        visibleR++;
-                    } else if (Objects.equals(table.get(i).get(j), table.get(x).get(j))) {
-                        visibleR++;
-                        break;
-                    } else {
-                        visibleB++;
-                        break;
-                    }
+                    visibleR++;
+                    if (table.get(i).get(j) <= table.get(x).get(j)) break;
                 }
                 for (int y = j - 1; y >= 0; y--) {
-                    if (table.get(i).get(j) > table.get(i).get(y)) {
-                        visibleT++;
-                    } else if (Objects.equals(table.get(i).get(j), table.get(i).get(y))) {
-                        visibleT++;
-                        break;
-                    } else {
-                        visibleB++;
-                        break;
-                    }
+                    visibleT++;
+                    if (table.get(i).get(j) <= table.get(i).get(y)) break;
                 }
                 for (int y = j + 1; y < table.get(0).size(); y++) {
-                    if (table.get(i).get(j) > table.get(i).get(y)) {
-                        visibleB++;
-                    } else if (Objects.equals(table.get(i).get(j), table.get(i).get(y))) {
-                        visibleB++;
-                        break;
-                    } else {
-                        visibleB++;
-                        break;
-                    }
+                    visibleB++;
+                    if (table.get(i).get(j) <= table.get(i).get(y)) break;
                 }
-                if (i == 0 || i == (table.size() - 1) || j == 0 || j == (table.get(0).size() - 1)) {
-                    temp.add(0);
-                } else {
-                    temp.add(visibleR * visibleL * visibleB * visibleT);
-                }
+                temp.add(visibleR * visibleL * visibleB * visibleT);
             }
-            scienecScoreMatrix.add(temp);
+            scenicScoreMatrix.add(temp);
             if (debug) System.out.println();
         }
         if (debug) {
             System.out.println();
-            for (ArrayList<Integer> line : scienecScoreMatrix) {
-                System.out.println(line);
-            }
+            for (ArrayList<Integer> line : scenicScoreMatrix) System.out.println(line);
         }
+
         int answer = 0;
-        for(ArrayList<Integer> one: scienecScoreMatrix){
-            for(int two: one){
-                if(two > answer){
-                    answer = two;
-                }
-            }
-        }
+        for (ArrayList<Integer> one : scenicScoreMatrix) for (int two : one) if (two > answer) answer = two;
         return answer;
     }
 }

@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 7">
-      <change afterPath="$PROJECT_DIR$/src/will/SolutionDay8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/data/dataDay8.txt" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Days.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <workItem from="1670674931779" duration="26435000" />
       <workItem from="1670865672214" duration="3758000" />
       <workItem from="1670887898411" duration="6684000" />
-      <workItem from="1670934099127" duration="5830000" />
+      <workItem from="1670934099127" duration="8340000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -201,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670892657280</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Day 8">
+      <created>1670953665899</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670953665899</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,17 +237,7 @@
     <MESSAGE value="Day 5" />
     <MESSAGE value="Day 6" />
     <MESSAGE value="Day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 7" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/will/SolutionDay8.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 8" />
   </component>
 </project>
