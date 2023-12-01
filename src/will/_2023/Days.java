@@ -3,6 +3,7 @@ package will._2023;
 import java.util.Objects;
 
 import static will._2023.SolutionDay1.getCalibrationSum;
+import static will._2023.SolutionDay1.getCalibrationSumPart2;
 
 public class Days {
 
@@ -43,7 +44,7 @@ public class Days {
 
     private static String[][] settupAnswersArray() {
         return new String[][]{
-                {String.valueOf(getCalibrationSum()), "null"}, //1
+                {String.valueOf(getCalibrationSum()), String.valueOf(getCalibrationSumPart2())}, //1
                 {"null", "null"}, //2
                 {"null", "null"}, //3
                 {"null", "null"}, //4

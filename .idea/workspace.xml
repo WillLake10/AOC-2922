@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 8">
-      <change afterPath="$PROJECT_DIR$/src/will/_2023/Days.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/_2023/SolutionDay1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/_2023/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Adapt for 2023">
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay1Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/Days.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/_2023/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/Days.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/_2023/SolutionDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/SolutionDay1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/_2023/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/_2023/data/dataDay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +95,7 @@
       <workItem from="1670865672214" duration="3758000" />
       <workItem from="1670887898411" duration="6684000" />
       <workItem from="1670934099127" duration="8340000" />
-      <workItem from="1701459501329" duration="1323000" />
+      <workItem from="1701459501329" duration="4034000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -235,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670953665899</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adapt for 2023">
+      <created>1701461228239</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1701461228239</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +257,7 @@
     <MESSAGE value="Day 6" />
     <MESSAGE value="Day 7" />
     <MESSAGE value="Day 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 8" />
+    <MESSAGE value="Adapt for 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapt for 2023" />
   </component>
 </project>
