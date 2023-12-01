@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 8">
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/SolutionDay1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/SolutionDay8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/Days.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/SolutionDay8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/SolutionDay8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay7.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/will/data/dataDay8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2022/data/dataDay8.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,28 +55,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/will/Documents/Projects/AOC-22&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/willi/IdeaProjects/AdventOfCode/src/will/_2023/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willi\IdeaProjects\AdventOfCode\src\will\_2023\data" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/will/data" />
       <recent name="$PROJECT_DIR$/src/will" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="will._2023" />
     </key>
   </component>
   <component name="RunManager">
@@ -84,6 +114,7 @@
       <workItem from="1670865672214" duration="3758000" />
       <workItem from="1670887898411" duration="6684000" />
       <workItem from="1670934099127" duration="8340000" />
+      <workItem from="1701459501329" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>

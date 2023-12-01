@@ -1,15 +1,15 @@
-package will;
+package will._2022;
 
 import java.util.Objects;
 
-import static will.SolutionDay1.*;
-import static will.SolutionDay2.*;
-import static will.SolutionDay3.*;
-import static will.SolutionDay4.*;
-import static will.SolutionDay5.*;
-import static will.SolutionDay6.*;
-import static will.SolutionDay7.*;
-import static will.SolutionDay8.*;
+import static will._2022.SolutionDay1.*;
+import static will._2022.SolutionDay2.*;
+import static will._2022.SolutionDay3.*;
+import static will._2022.SolutionDay4.*;
+import static will._2022.SolutionDay5.*;
+import static will._2022.SolutionDay6.*;
+import static will._2022.SolutionDay7.*;
+import static will._2022.SolutionDay8.*;
 
 public class Days {
 
@@ -20,7 +20,7 @@ public class Days {
     private static final String ANSI_BLUE = "\u001B[34m";
     private static final String ANSI_PURPLE = "\u001B[35m";
 
-    public static void outputDay(int day, boolean test) {
+    public static void output2022Day(int day, boolean test) {
         if (!test) {
             for (int i = 0; i < 2; i++) {
                 if (!Objects.equals(answers[day - 1][i], "null")) {

@@ -1,4 +1,4 @@
-package will;
+package will._2022;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -21,7 +21,7 @@ public class SolutionDay5 {
         int[] charPos = {1, 5, 9, 13, 17, 21, 25, 29, 33};
         boolean beforeMoves = true;
         try {
-            Scanner scanner = new Scanner(new File("src/will/data/dataDay5.txt"));
+            Scanner scanner = new Scanner(new File("src/will/_2022/data/dataDay5.txt"));
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();

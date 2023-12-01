@@ -1,4 +1,4 @@
-package will;
+package will._2022;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ public class SolutionDay2 {
     public static List<Game> getAllPairs() {
         List<Game> games = new ArrayList<>();
         try {
-            Scanner scanner = new Scanner(new File("src/will/data/dataDay2.txt"));
+            Scanner scanner = new Scanner(new File("src/will/_2022/data/dataDay2.txt"));
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
