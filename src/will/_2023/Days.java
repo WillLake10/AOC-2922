@@ -4,6 +4,8 @@ import java.util.Objects;
 
 import static will._2023.SolutionDay1.getCalibrationSum;
 import static will._2023.SolutionDay1.getCalibrationSumPart2;
+import static will._2023.SolutionDay2.getFewestCubePower;
+import static will._2023.SolutionDay2.getPossibleGames;
 
 public class Days {
 
@@ -45,7 +47,7 @@ public class Days {
     private static String[][] settupAnswersArray() {
         return new String[][]{
                 {String.valueOf(getCalibrationSum()), String.valueOf(getCalibrationSumPart2())}, //1
-                {"null", "null"}, //2
+                {String.valueOf(getPossibleGames()), String.valueOf(getFewestCubePower())}, //2
                 {"null", "null"}, //3
                 {"null", "null"}, //4
                 {"null", "null"}, //5

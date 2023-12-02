@@ -6,7 +6,7 @@ public class Test {
 
     public static final String[][] expectedValues = {
             {"54990", "54473"}, //1
-            {"", ""}, //2
+            {"2685", "83707"}, //2
             {"", ""}, //3
             {"", ""}, //4
             {"", ""}, //5

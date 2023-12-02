@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Adapt for 2023">
-      <change afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay1Test.txt" afterDir="false" />
+    <list default="true" id="50a7ffc7-bb26-4faf-a6e6-6f3ead3e8d5f" name="Changes" comment="Day 1">
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/SolutionDay2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/_2023/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/Days.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/_2023/SolutionDay1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/SolutionDay1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/will/_2023/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/will/_2023/data/dataDay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/will/_2023/data/dataDay1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/willi/IdeaProjects/AdventOfCode/src/will/_2023/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willi/IdeaProjects/AdventOfCode/src/will/_2023/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\willi\IdeaProjects\AdventOfCode\src\will\_2023\data" />
@@ -95,7 +94,8 @@
       <workItem from="1670865672214" duration="3758000" />
       <workItem from="1670887898411" duration="6684000" />
       <workItem from="1670934099127" duration="8340000" />
-      <workItem from="1701459501329" duration="4034000" />
+      <workItem from="1701459501329" duration="5558000" />
+      <workItem from="1701516540866" duration="6538000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1670541896868</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701461228239</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Day 1">
+      <created>1701463845195</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701463845195</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +249,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <MESSAGE value="Day 1" />
     <MESSAGE value="Improve Day 1" />
     <MESSAGE value="Day 1 part 2" />
     <MESSAGE value="Day 2" />
@@ -258,6 +264,18 @@
     <MESSAGE value="Day 7" />
     <MESSAGE value="Day 8" />
     <MESSAGE value="Adapt for 2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapt for 2023" />
+    <MESSAGE value="Day 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/will/_2023/SolutionDay2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
