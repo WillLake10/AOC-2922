@@ -6,6 +6,8 @@ import static will._2023.SolutionDay1.getCalibrationSum;
 import static will._2023.SolutionDay1.getCalibrationSumPart2;
 import static will._2023.SolutionDay2.getFewestCubePower;
 import static will._2023.SolutionDay2.getPossibleGames;
+import static will._2023.SolutionDay3.getGearRatio;
+import static will._2023.SolutionDay3.getPartNumSum;
 
 public class Days {
 
@@ -48,7 +50,7 @@ public class Days {
         return new String[][]{
                 {String.valueOf(getCalibrationSum()), String.valueOf(getCalibrationSumPart2())}, //1
                 {String.valueOf(getPossibleGames()), String.valueOf(getFewestCubePower())}, //2
-                {"null", "null"}, //3
+                {String.valueOf(getPartNumSum()), String.valueOf(getGearRatio())}, //3
                 {"null", "null"}, //4
                 {"null", "null"}, //5
                 {"null", "null"}, //6
